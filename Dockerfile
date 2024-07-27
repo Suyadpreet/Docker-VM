@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:17-jdk-alpine
 MAINTAINER "Suyad"
 COPY target/dockerVm.jar  /usr/app/
 WORKDIR /usr/app/
