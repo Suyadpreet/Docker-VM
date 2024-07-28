@@ -13,6 +13,6 @@ public class MainController
 	@GetMapping("/wel")
 	public String getWel()
 	{
-		return "Application running on " +env.getProperty("server.port")+" Hello welcome to jenkins suyad Gill";
+		return "Application running on " +env.getProperty("server.port")+" Hello welcome to jenkins.";
 	}
 }
